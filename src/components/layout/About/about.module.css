@@ -1,0 +1,38 @@
+.sectionAbout {
+  display: flex;
+  margin-bottom: 1.75em;
+  padding: 0.5em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 1em;
+  font-size: var(--fs-descr);
+}
+
+.skillsHeader {
+  font-size: 2.25rem;
+  margin: 1.75em 0 1em 0;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 1.675em;
+  padding: 0 0.25em;
+}
+
+@media (min-width: 600px) {
+  .skillsList {
+    gap: 2em;
+  }
+}

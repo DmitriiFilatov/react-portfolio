@@ -1,0 +1,16 @@
+.skill {
+  display: flex;
+  width: 95px;
+  flex-direction: column;
+}
+
+.skillIcon {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .skillIcon {
+    font-size: 3rem;
+  }
+}
